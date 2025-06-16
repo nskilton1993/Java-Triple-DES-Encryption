@@ -14,7 +14,7 @@ public class Encrypt_DESede {
 
 	public static void main(String[ ] args) {
 		if (args.length != 2) {
-			System.err.println("Usage: java JavaFileEncryptionDESede filename 24CharPassword");
+			System.err.println("Usage: java Encrypt_DESede filename 24CharPassword");
 			return;
 		}
 		
