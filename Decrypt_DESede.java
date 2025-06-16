@@ -9,7 +9,7 @@ public class Decrypt_DESede {
 	public static void main(String[ ] args) {
 		
 		if (args.length != 3) {
-			System.err.println("Usage: java FileDecryptor infile outfile 24CharPassword");  return;
+			System.err.println("Usage: java Decrypt_DESede infile outfile 24CharPassword");  return;
 		}
 		
 		String infile = args[0];
